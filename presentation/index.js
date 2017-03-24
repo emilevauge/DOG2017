@@ -291,6 +291,16 @@ export default class Presentation extends React.Component {
           </Slide>
 
           <Slide bgColor="white">
+            <Heading size={1} caps textColor="primary">
+            We just
+            </Heading>
+            <Image src={images.containous.replace("/", "")} height="150"/>
+            <Heading size={1} caps textColor="primary">
+            raised €1M !
+            </Heading>
+          </Slide>
+
+          <Slide bgColor="white">
             <Heading size={1} caps textColor="primary" textSize="170">
               I have
             </Heading>
